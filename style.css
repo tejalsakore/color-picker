@@ -1,0 +1,54 @@
+.color {
+    width: 120px;
+    height: 30px;
+    border-radius: 5%;
+    margin-bottom: 30px;
+}
+
+.color-hover{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.color:hover {
+    cursor: pointer;
+  }
+  
+
+body{background-color: rgb(43, 42, 42);}
+
+.red{
+    background-color: red;
+}
+
+.orange{
+    margin-left: 5px;
+    background-color: orange;
+}
+
+.yellow{
+    margin-left: 5px;
+    background-color: yellow;
+}
+
+.lime{
+    margin-left: 5px;
+    background-color: lime;
+}
+
+.green{
+    margin-left: 5px;
+    background-color: green;
+}
+
+.center {
+    width: 300px;
+    height: 300px;
+    background: rgb(66, 66, 66);
+    border-radius: 50%;
+    transition: 0.2s ease-in-out all;
+    margin: auto;
+    margin-top: 20px;
+}
